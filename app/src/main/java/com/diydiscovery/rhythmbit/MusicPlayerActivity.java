@@ -51,10 +51,10 @@ public class MusicPlayerActivity extends AppCompatActivity {
                     currentTimeTv.setText(convertToMMSS(mediaPlayer.getCurrentPosition()+""));
 
                     if(mediaPlayer.isPlaying()){
-                        pausePlay.setImageResource(R.drawable.ic_launcher_background);
+                        pausePlay.setImageResource(R.drawable.baseline_pause_24);
                         musicIcon.setRotation(x++);
                     }else{
-                        pausePlay.setImageResource(R.drawable.ic_launcher_background);
+                        pausePlay.setImageResource(R.drawable.baseline_play_circle_24);
                         musicIcon.setRotation(0);
                     }
 
